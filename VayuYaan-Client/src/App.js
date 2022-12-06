@@ -49,6 +49,7 @@ import TimesPerDay from "./dashboard/pilot/timesPerDay"
 import DroneFleetStatic from "./dashboard/DronFleetStatistic/droneFleetStatistics";
 import CloudDashBoard from "./dashboard/CloudDashboardHome";
 import ModelEvaluations from "./dashboard/droneAIModelEvaluation/droneAIModelEvaluation";
+import DroneData from "./dashboard/DroneData";
 function App() {
   return (
     <BrowserRouter>
@@ -133,6 +134,10 @@ function App() {
           <Route
             path="admin/droneAIModelEvaluation"
             element={<ModelEvaluations />}
+          />
+          <Route
+            path="admin/dronedata"
+            element={<DroneData />}
           />
         </Route>
 

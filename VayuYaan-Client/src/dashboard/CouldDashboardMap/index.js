@@ -116,21 +116,23 @@ const CouldDashboardMap = () => {
                 <div className={styles.drones}>Stationed Drones</div>
                 <div className={styles.drones}>3 Drones Found</div>
                 <div className={styles.cards}>
-                  {droneCards.map(({ id, number, metrial, image, status }) => {
-                    return (
-                      <div className={styles.card}>
-                        <div className={styles.leftPart}>
-                          <div className={styles.id}>{id}</div>
-                          <div className={styles.number}>{number}</div>
-                          <div className={styles.metrial}>{metrial}</div>
-                        </div>
-                        <div>
-                          <img src={image} alt="drone-image" />
-                        </div>
-                        <button>{status}</button>
-                      </div>
-                    );
-                  })}
+                    {droneCards.map(
+                      ({ id, number, metrial, image, status }) => {
+                        return (
+                          <div className={styles.card}>
+                            <div className={styles.leftPart}>
+                              <div className={styles.id}>{id}</div>
+                              <div className={styles.number}>{number}</div>
+                              <div className={styles.metrial}>{metrial}</div>
+                            </div>
+                            <div>
+                              <img src={image} alt="drone-image" />
+                            </div>
+                            <button>{status}</button>
+                          </div>
+                        );
+                      }
+                    )}
                 </div>
               </div>
             </div>
