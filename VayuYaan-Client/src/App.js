@@ -46,6 +46,9 @@ import DroneCatalog from "./dashboard/DroneCatalog";
 import DroneCloudTracking from "./dashboard/DroneCloudTracking";
 import PilotSchedule from "./dashboard/pilot/pilotSchedule"
 import TimesPerDay from "./dashboard/pilot/timesPerDay"
+import DroneFleetStatic from "./dashboard/DronFleetStatistic/droneFleetStatistics";
+import CloudDashBoard from "./dashboard/CloudDashboardHome";
+import ModelEvaluations from "./dashboard/droneAIModelEvaluation/droneAIModelEvaluation";
 function App() {
   return (
     <BrowserRouter>
@@ -122,6 +125,15 @@ function App() {
           <Route path="farm/management" element={<FarmManagement />} />
           <Route path="pilot/schedule" element={<PilotSchedule />} />
           <Route path="pilot/timesPerDay" element={<TimesPerDay />} />
+          <Route
+            path="admin/droneFleetStatistics"
+            element={<DroneFleetStatic />}
+          />
+          <Route path="admin/cloudDashboardHome" element={<CloudDashBoard />} />
+          <Route
+            path="admin/droneAIModelEvaluation"
+            element={<ModelEvaluations />}
+          />
         </Route>
 
         <Route path="/adminaccess" element={<AdminAccess />} />
