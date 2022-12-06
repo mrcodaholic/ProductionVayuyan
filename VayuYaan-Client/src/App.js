@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './App.css';
-import Signup from './auth/Signup';
-import Login from './auth/Login';
+import "./App.css";
+import Signup from "./auth/Signup";
+import Login from "./auth/Login";
 import Profile from "./profile/Profile";
 import FarmerOne from "./profile/farmer/One";
 import FarmerTwo from "./profile/farmer/Two";
@@ -41,7 +41,9 @@ import ScheduleTwo from "./dashboard/pilot/ScheduleTwo";
 import ScheduleThree from "./dashboard/pilot/ScheduleThree";
 import FarmSelect from "./profile/farm/FarmSelect";
 import FarmPlotting from "./profile/farm/FarmPlotting";
-
+import CouldDashboardMap from "./dashboard/CouldDashboardMap";
+import DroneCatalog from "./dashboard/DroneCatalog";
+import DroneCloudTracking from "./dashboard/DroneCloudTracking";
 
 function App() {
   return (
@@ -80,13 +82,25 @@ function App() {
 
         <Route path="/dashboard">
           <Route path="farmer/myBookings" element={<MyBookings />} />
-          <Route path="farmer/bookDroneServiceOne" element={<BookDroneServiceOne />} />
-          <Route path="farmer/bookDroneServiceTwo/:id" element={<BookDroneServiceTwo />} />
-          <Route path="farmer/bookDroneServiceThree/:id" element={<BookDroneServiceThree />} />
+          <Route
+            path="farmer/bookDroneServiceOne"
+            element={<BookDroneServiceOne />}
+          />
+          <Route
+            path="farmer/bookDroneServiceTwo/:id"
+            element={<BookDroneServiceTwo />}
+          />
+          <Route
+            path="farmer/bookDroneServiceThree/:id"
+            element={<BookDroneServiceThree />}
+          />
           <Route path="farmer/serviceReports" element={<ServiceRequest />} />
           <Route path="farmer/maintenance" element={<Maintenance />} />
           <Route path="farmer/dronesimulation" element={<DroneSimulation />} />
-          <Route path="farmer/dronesimulation/create" element={<CreateDroneSimulation />} />
+          <Route
+            path="farmer/dronesimulation/create"
+            element={<CreateDroneSimulation />}
+          />
 
           <Route path="pilot" element={<PilotDashboard />} />
           <Route path="pilot/scheduleOne/:id" element={<ScheduleOne />} />
@@ -94,7 +108,13 @@ function App() {
           <Route path="pilot/scheduleThree/:id" element={<ScheduleThree />} />
 
           {/* <Route path="pilot/myschedule" element={<MySchedule />} /> */}
-
+          {/* maps */}
+          <Route
+            path="drone/cloud/dashboard/map"
+            element={<CouldDashboardMap />}
+          />
+          <Route path="drone/cloud/tracking" element={<DroneCloudTracking />} />
+          <Route path="drone/catalog" element={<DroneCatalog />} />
           <Route path="farmer/management" element={<FarmerManagement />} />
           <Route path="drone/management" element={<DroneManagement />} />
           <Route path="pilot/management" element={<PilotManagement />} />
@@ -103,8 +123,6 @@ function App() {
 
         <Route path="/adminaccess" element={<AdminAccess />} />
       </Routes>
-      
-      
     </BrowserRouter>
   );
 }
