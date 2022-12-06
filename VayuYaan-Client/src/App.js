@@ -44,6 +44,7 @@ import FarmPlotting from "./profile/farm/FarmPlotting";
 import CouldDashboardMap from "./dashboard/CouldDashboardMap";
 import DroneCatalog from "./dashboard/DroneCatalog";
 import DroneCloudTracking from "./dashboard/DroneCloudTracking";
+import CreatePilotManagement from "./dashboard/createPilotManagement";
 
 function App() {
   return (
@@ -119,6 +120,7 @@ function App() {
           <Route path="drone/management" element={<DroneManagement />} />
           <Route path="pilot/management" element={<PilotManagement />} />
           <Route path="farm/management" element={<FarmManagement />} />
+          <Route path="pilot-management" element={<CreatePilotManagement />} />
         </Route>
 
         <Route path="/adminaccess" element={<AdminAccess />} />
