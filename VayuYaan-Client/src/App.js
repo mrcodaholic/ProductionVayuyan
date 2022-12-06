@@ -44,7 +44,8 @@ import FarmPlotting from "./profile/farm/FarmPlotting";
 import CouldDashboardMap from "./dashboard/CouldDashboardMap";
 import DroneCatalog from "./dashboard/DroneCatalog";
 import DroneCloudTracking from "./dashboard/DroneCloudTracking";
-
+import PilotSchedule from "./dashboard/pilot/pilotSchedule"
+import TimesPerDay from "./dashboard/pilot/timesPerDay"
 function App() {
   return (
     <BrowserRouter>
@@ -119,6 +120,8 @@ function App() {
           <Route path="drone/management" element={<DroneManagement />} />
           <Route path="pilot/management" element={<PilotManagement />} />
           <Route path="farm/management" element={<FarmManagement />} />
+          <Route path="pilot/schedule" element={<PilotSchedule />} />
+          <Route path="pilot/timesPerDay" element={<TimesPerDay />} />
         </Route>
 
         <Route path="/adminaccess" element={<AdminAccess />} />
