@@ -49,6 +49,7 @@ import TimesPerDay from "./dashboard/pilot/timesPerDay"
 import CloudDashboardHome from "./dashboard/CloudDashboardHome/cloudDashBoard"
 import DroneFleetStatistics from "./dashboard/DroonFleetStatic/DroonFleetStatic"
 import ServiceHistory from "./dashboard/service/App"
+import FarmerMain from "./dashboard/FarmerMaintence/Farmermain"
 
 function App() {
   return (
@@ -100,7 +101,7 @@ function App() {
             element={<BookDroneServiceThree />}
           />
           <Route path="farmer/serviceReports" element={<ServiceRequest />} />
-          <Route path="farmer/maintenance" element={<Maintenance />} />
+          <Route path="farmer/maintenance" element={<FarmerMain />} />
           <Route path="farmer/dronesimulation" element={<DroneSimulation />} />
           <Route
             path="farmer/dronesimulation/create"
