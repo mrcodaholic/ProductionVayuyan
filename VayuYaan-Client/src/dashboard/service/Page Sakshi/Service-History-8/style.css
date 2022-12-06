@@ -1,0 +1,144 @@
+.ser-head{
+    position: absolute;
+    width: 1007px;
+    height: 41px;
+ 
+    top: 124px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+
+    color: #1A3447;
+}.table-nav{
+    width: 100%;
+}
+.nav-2{
+    width: 20%;
+    margin-top: 20px;
+}
+.nav-2 input{
+    border: none;
+    margin-left: 5px;
+    font-size: 15px;
+}
+.nav-3{
+    margin-top: 20px;
+}
+.nav-1{
+    width: 60%;
+    text-align: left;
+    margin-left: 10px;
+}
+.service-table-section{
+    position: absolute;
+    width: 1100px;
+    height: 812px;
+    left: 371px;
+    top: 361px;
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 60px rgba(226, 236, 249, 0.5);
+    border-radius: 30px;
+}
+.service_table{
+    margin-top: 20px;
+}
+.table-nav{
+    display: flex;
+}
+.ser-box{
+    position: absolute;
+    width: 210px;
+    height: 71px;
+    left: 400px;
+    top: 230px;
+
+    background: #B9B9C3;
+    border-radius: 10px;
+}
+.sub-box{
+    /* position: absolute; */
+    width: 155px;
+    height: 44px;
+    left: 391px;
+    top: 207px;
+ margin-left: 25px;
+    background: #226DFF;
+    border-radius: 5px;
+    color: #FFFFFF;
+    
+}
+.sub-box p{
+    padding-top:10px;
+}
+.f-Btn{
+    width: 84px;
+    height: 29px;
+    left: 1197px;
+    top: 549px;
+
+    background: rgba(217, 255, 253, 0.6);
+    border: 1px solid #00A3FF;
+    border-radius: 4px;
+    text-align: center;
+}
+.b-Btn{
+    width: 58px;
+    height: 10px;
+    padding-bottom: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 5px;
+    letter-spacing: -0.01em;
+
+    color: #007AFF;
+
+
+
+
+
+}
+.service_table tr{
+    top: 100px;
+}
+.service_table th{
+   
+    width: 80px;
+    height: 21px;
+    
+    
+    
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    color: #B5B7C0;
+}
+.service_table td{
+    width: 57px;
+    height: 21px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    /* identical to box height */
+
+    letter-spacing: -0.01em;
+
+    color: #292D32;
+
+}
+.table-tr{
+    border: 1px solid rgb(128, 127, 127);
+}

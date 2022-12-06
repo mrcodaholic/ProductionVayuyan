@@ -46,6 +46,11 @@ import DroneCatalog from "./dashboard/DroneCatalog";
 import DroneCloudTracking from "./dashboard/DroneCloudTracking";
 import PilotSchedule from "./dashboard/pilot/pilotSchedule"
 import TimesPerDay from "./dashboard/pilot/timesPerDay"
+import CloudDashboardHome from "./dashboard/CloudDashboardHome/cloudDashBoard"
+import DroneFleetStatistics from "./dashboard/DroonFleetStatic/DroonFleetStatic"
+import ServiceHistory from "./dashboard/service/App"
+import FarmerMain from "./dashboard/FarmerMaintence/Farmermain"
+
 function App() {
   return (
     <BrowserRouter>
@@ -96,7 +101,7 @@ function App() {
             element={<BookDroneServiceThree />}
           />
           <Route path="farmer/serviceReports" element={<ServiceRequest />} />
-          <Route path="farmer/maintenance" element={<Maintenance />} />
+          <Route path="farmer/maintenance" element={<FarmerMain />} />
           <Route path="farmer/dronesimulation" element={<DroneSimulation />} />
           <Route
             path="farmer/dronesimulation/create"
@@ -123,6 +128,21 @@ function App() {
           <Route path="pilot/schedule" element={<PilotSchedule />} />
           <Route path="pilot/timesPerDay" element={<TimesPerDay />} />
         </Route>
+
+        {/* Page 1 : Cloud Dashboard Home*/}
+        <Route path="/admin/cloudDashboardHome" element={<CloudDashboardHome />} />
+
+        {/* Page 2 : Drone Fleet Statistics Pie Charts*/}
+        <Route path="/admin/droneFleetStatistics" element={<DroneFleetStatistics />} />
+
+        {/* Page 3 : Drone AIModel Evaluation*/}
+        {/* <Route path="/admin/droneAIModelEvaluation" element={<DroneAIModelEvaluation />} /> */}
+
+        {/* Page 4 : Drone Data Pictures*/}
+        {/* <Route path="/admin/droneDataPictures" element={<DroneDataPictures />} /> */}
+
+        {/* Page 5 : Service History,  we use can for anything*/}
+        <Route path="/admin/serviceHistory" element={<ServiceHistory />} />
 
         <Route path="/adminaccess" element={<AdminAccess />} />
       </Routes>
