@@ -1,0 +1,415 @@
+#container-Body6{
+    height: max-content;
+}
+.head_dta{
+    position: absolute;
+    width: 1007px;
+    height: 20px;
+  
+    top: 100px;
+
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 39px;
+
+    color: #1A3447;
+}
+.data_list{
+    position: absolute;
+    width: 500px;
+    height: 65px;
+    left: 390px;
+    top: 193px;
+    display: flex;
+    background: #B9B9C3;
+    border-radius: 10px;
+    margin: 10px;
+}
+.d1{
+    /* position: absolute; */
+    width: 155px;
+    height: 44px;
+    left: 371px;
+    top: 207px;
+
+    background: #00A3FF;
+    border-radius: 5px;
+}
+.d2{
+    /* position: absolute; */
+    width: 155px;
+    height: 44px;
+    left: 539px;
+    top: 207px;
+
+    background: #007AFF;
+    border-radius: 5px;
+}
+.d3{
+    /* position: absolute; */
+    width: 155px;
+    height: 44px;
+    left: 705px;
+    top: 208px;
+
+    background: #226DFF;
+    border-radius: 5px;
+}
+.d1, .d2, .d3{
+    margin: 10px;
+}
+.dta-para{
+    /* position: absolute; */
+    left: 27.15%;
+    right: 65.07%;
+    top: 11.1%;
+    bottom: 88.02%;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+#drone_img{
+    display: flex;
+    /* position: absolute; */
+    top: 379px;
+    text-align: left;
+}
+.img_box1{
+    box-sizing: border-box;
+
+    position: absolute;
+    width: 262px;
+    height: 122px;
+    left: 440px;
+    top: 289px;
+
+    background: #EEEEEE;
+    border: 2px solid #5932EA;
+    /* Drop_1 */
+
+    box-shadow: 0px 20px 50px rgba(220, 224, 249, 0.5);
+    border-radius: 12px;
+}
+.img_box2{
+    box-sizing: border-box;
+
+position: absolute;
+width: 262px;
+height: 122px;
+left: 740px;
+top: 289px;
+
+background: #FFFFFF;
+border: 2px solid #5932EA;
+/* Drop_1 */
+
+box-shadow: 0px 20px 50px rgba(220, 224, 249, 0.5);
+border-radius: 12px;
+
+
+}
+.img_box1 , .img_box2{
+    display: flex;
+}
+
+.img_box1 img{
+    /* position: absolute; */
+    width: 100.55px;
+    height: 87.19px;
+    /* left: 487.04px;
+    top: 308.05px; */
+}
+.img_box2 img{
+    width: 100.55px;
+    height: 87.19px;
+}
+.p1{
+    width: 69px;
+    height: 17px;
+
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.01em;
+
+    color: #B0B0B0;
+
+
+/* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+.p2{
+    position: absolute;
+    width: 11.2px;
+    height: 22.4px;
+    /* left: 392.38px;
+    top: 333.64px; */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 0.01em;
+
+    color: #232323;
+
+}
+.p3{
+    position: absolute;
+    width: 96px;
+    height: 17px;
+    /* left: 700px;
+    top: 367px; */
+
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.01em;
+
+    color: #484A58;
+}
+.p1, .p2, .p3{
+    margin-top: 5px;
+}
+.para-clss{
+ margin-left: 20px;
+}
+.img_class{
+    margin: 10px;
+    margin-left: 40px;
+}
+
+.data-service-head{
+    position: absolute;
+    width: 1007px;
+    height: 41px;
+    left: 20px;
+    margin-top: -150px;
+    /* top: 108px; */
+
+    /* font-family: 'Inter'; */
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 44px;
+
+    color: #1A3447;
+
+}
+.service-detailPara{
+    text-align: left;
+    position: absolute;
+    width: 406px;
+    height: 221px;
+    left: 420px;
+    top: 500px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #1A3447;
+}
+.service-detailPara span{
+    font-weight: 800;
+}
+.droneData_collection{
+    position: absolute;
+    width: 421px;
+    height: 157px;
+    left: 342px;
+    top: 720px;
+
+    font-family:sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 29px;
+
+    color: #1A3447;
+}
+.droneData_collection .para{
+    position: absolute;
+    width: 410px;
+    height: 157px;
+    left: 50px;
+    margin-left: -60px;
+    margin-top: -10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #1A3447;
+}
+
+.collection-img{
+    display: flex;
+    position: absolute;
+    left: 440px;
+    top:830px
+}
+.img-detail, .vedio-detail {
+
+    margin: 0px 100px 10px 0px;
+    background: #FFFFFF;
+    
+    text-align: left;
+}
+.img-detail img , .vedio-detail img ,.weather-detail img, .infrared-detail img{
+    height: 160px;
+    width: 300px;
+    border-top-right-radius:  15px;
+    border-top-left-radius:  15px;
+
+}
+.img-time, .vedio-time,.point, .field{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-left: 30px;
+    /* identical to box height */
+
+
+    /* Colors / Black / 100% */
+
+    color: #000000;
+
+}
+.img-time , .location ,.point{
+    margin-left: 20px;
+}
+.location{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: -15px;
+    
+    /* identical to box height, or 143% */
+
+
+    /* Colors / Black / 60% */
+
+    color: #000000;
+
+    mix-blend-mode: normal;
+    opacity: 0.4;
+}
+
+.video{
+
+
+    position: absolute;
+    width: 410px;
+    height: 31px;
+    left: 330px;
+    top: 1120px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #1A3447;
+    
+    
+}
+.collection-vedio{
+    display: flex;
+    position: absolute;
+    left: 440px;
+    top:1200px;
+}
+.vedio-time, .location{
+    margin-left: 20px;
+}
+button{
+    align-items: center;
+    /* padding: 10px 12px; */
+    gap: 23px;
+    float: right;
+  
+    width: 97px;
+    height: 26px;
+    left: 572px;
+    top: 1043px;
+
+    /* secondary/red */
+
+    background: #FF6370;
+    border-radius: 5px;
+    color: #FFFFFF;
+}
+button:hover{
+    cursor: pointer;
+}
+.lidhar{
+    position: absolute;
+    width: 400px;
+    height: 26px;
+    left: 340px;
+    top: 1500px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #1A3447;
+}
+.weather-detail{
+    position: absolute;
+    left: 440px;
+    top:1580px;
+}
+.weather-detail .location{
+    text-align: left;
+}
+.infrared{
+    position: absolute;
+
+    height: 31px;
+    left: 445px;
+    top: 1850px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 24px;
+
+    color: #1A3447;
+
+}
+.infrared-detail{
+    position: absolute;
+    left: 440px;
+    top:1920px;
+    text-align: left;
+}
