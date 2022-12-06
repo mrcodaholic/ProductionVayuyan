@@ -50,6 +50,7 @@ import CloudDashboardHome from "./dashboard/cloudDashboardHome/cloudDashBoard"
 import DroneFleetStatistics from "./dashboard/DroonFleetStatic/DroonFleetStatic"
 // import ServiceHistory from "./dashboard/service/App"
 import FarmerMain from "./dashboard/FarmerMaintence/Farmermain"
+import Map from "./profile/farm/map/Map";
 
 function App() {
   return (
@@ -74,7 +75,7 @@ function App() {
           <Route path="pilot/3" element={<PilotThree />} />
           <Route path="pilot/4" element={<PilotFour />} />
           <Route path="farm/1" element={<FarmOne />} />
-          <Route path="farm/plotting" element={<FarmPlotting />} />
+          <Route path="farm/plotting" element={<Map isConnected/>} />
           <Route path="farm/2" element={<FarmTwo />} />
           <Route path="farm/3" element={<FarmThree />} />
           <Route path="farm/4" element={<FarmSelect />} />
