@@ -46,6 +46,10 @@ import DroneCatalog from "./dashboard/DroneCatalog";
 import DroneCloudTracking from "./dashboard/DroneCloudTracking";
 import PilotSchedule from "./dashboard/pilot/pilotSchedule"
 import TimesPerDay from "./dashboard/pilot/timesPerDay"
+import DroneFleetStatic from "./dashboard/DronFleetStatistic/droneFleetStatistics";
+import CloudDashBoard from "./dashboard/CloudDashboardHome";
+import ModelEvaluations from "./dashboard/droneAIModelEvaluation/droneAIModelEvaluation";
+import DroneData from "./dashboard/DroneData";
 import CloudDashboardHome from "./dashboard/CloudDashboardHome/cloudDashBoard"
 import DroneFleetStatistics from "./dashboard/DroonFleetStatic/DroonFleetStatic"
 import ServiceHistory from "./dashboard/service/App"
@@ -127,6 +131,19 @@ function App() {
           <Route path="farm/management" element={<FarmManagement />} />
           <Route path="pilot/schedule" element={<PilotSchedule />} />
           <Route path="pilot/timesPerDay" element={<TimesPerDay />} />
+          <Route
+            path="admin/droneFleetStatistics"
+            element={<DroneFleetStatic />}
+          />
+          <Route path="admin/cloudDashboardHome" element={<CloudDashBoard />} />
+          <Route
+            path="admin/droneAIModelEvaluation"
+            element={<ModelEvaluations />}
+          />
+          <Route
+            path="admin/dronedata"
+            element={<DroneData />}
+          />
         </Route>
 
         {/* Page 1 : Cloud Dashboard Home*/}
