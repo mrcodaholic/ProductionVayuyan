@@ -44,7 +44,7 @@ import FarmPlotting from "./profile/farm/FarmPlotting";
 import CouldDashboardMap from "./dashboard/CouldDashboardMap";
 import DroneCatalog from "./dashboard/DroneCatalog";
 import DroneCloudTracking from "./dashboard/DroneCloudTracking";
-import CreatePilotManagement from "./dashboard/createPilotManagement";
+import CreatePilotManagement from "./dashboard/CreatePilotManagement";
 
 function App() {
   return (

@@ -5,7 +5,7 @@ import styles from "./pilot.module.scss";
 import PilotTable from "./Table";
 import ViewModal from "./ViewModal";
 
-const PilotManagement = () => {
+const CreatePilotManagement = () => {
   const [isVisible, setIsVisible] = useState(false);
   const [isVisibleView, setIsVisibleView] = useState(false);
 
@@ -107,4 +107,4 @@ const PilotManagement = () => {
   );
 };
 
-export default PilotManagement;
+export default CreatePilotManagement;
