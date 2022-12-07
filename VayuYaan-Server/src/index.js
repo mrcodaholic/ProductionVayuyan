@@ -1,4 +1,5 @@
 const express = require("express");
+const path = require('path');
 const cors = require('cors');
 const mongoose = require('mongoose');
 const userRouter = require('./routes/user');
@@ -18,6 +19,12 @@ const corsOptions ={
 }
 
 app.use(cors(corsOptions))
+
+app.use(express.static(path.resolve(__dirname, '../VayuYaan-Client/build')));
+
+app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, '../VayuYaan-Client/build', 'index.html'));
+});
 
 const uri = 'mongodb+srv://user:admin@cluster0.ekmppyu.mongodb.net/?retryWrites=true&w=majority';
 
