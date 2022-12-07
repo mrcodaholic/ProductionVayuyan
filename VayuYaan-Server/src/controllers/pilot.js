@@ -46,6 +46,8 @@ async function viewPilotByEmail(req, res) {
     const email = req.params.email;
     const pilot = await Pilot.find({ "email": email}).exec();
 
+    // console.log(email, pilot)
+
     return res.status(200).json({
         success: true,
         data: pilot,
