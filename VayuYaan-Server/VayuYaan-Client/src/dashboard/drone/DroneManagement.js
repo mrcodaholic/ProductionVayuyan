@@ -250,7 +250,7 @@ function DroneManagement() {
                                     <th><img src={FilterIcon} alt="filer" /></th>
                                 </tr>
                                 {
-                                    drones.map((drone, index) => {
+                                    drones && drones.map((drone, index) => {
                                         return (
                                             <tr key={drone._id}>
                                                 <td>{drone._id}</td>
